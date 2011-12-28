@@ -24,7 +24,7 @@ nmap <silent> <c-n> :NERDTreeToggle<CR>
 
 " GUI INTERFACE SETTINGS:
 if has('gui_running')
-    set guioptions-=T  " no toolbar
+    " set guioptions-=T  " no toolbar
     colorscheme wombat
 else
     colorscheme koehler
