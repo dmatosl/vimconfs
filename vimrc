@@ -25,6 +25,9 @@ nmap <silent> <c-n> :NERDTreeToggle<CR>
 " FONT SETTINGS:
 set gfn=Monaco:h14
 
+" TEMPLATE SETTINGS:
+autocmd! BufNewFile * silent! 0r ~/.vim/skel/tmpl.%:e
+
 " GUI INTERFACE SETTINGS:
 if has('gui_running')
     " set guioptions-=T  " no toolbar
