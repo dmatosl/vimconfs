@@ -23,7 +23,7 @@ set expandtab
 nmap <silent> <c-n> :NERDTreeToggle<CR>
 
 " FONT SETTINGS:
-set gfn=Monaco:h12
+set gfn=Monaco:h14
 
 " GUI INTERFACE SETTINGS:
 if has('gui_running')
