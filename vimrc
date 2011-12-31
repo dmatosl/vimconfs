@@ -22,6 +22,9 @@ set expandtab
 " MAP 
 nmap <silent> <c-n> :NERDTreeToggle<CR>
 
+" FONT SETTINGS:
+set gfn=Monaco:h12
+
 " GUI INTERFACE SETTINGS:
 if has('gui_running')
     " set guioptions-=T  " no toolbar
