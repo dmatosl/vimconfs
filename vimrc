@@ -30,7 +30,7 @@ autocmd! BufNewFile * silent! 0r ~/.vim/skel/tmpl.%:e
 
 " GUI INTERFACE SETTINGS:
 if has('gui_running')
-    " set guioptions-=T  " no toolbar
+    set guioptions-=T  " no toolbar
     colorscheme wombat
 else
     colorscheme koehler
