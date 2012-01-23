@@ -12,6 +12,7 @@ set nostartofline
 set ruler
 set visualbell
 set number
+set vb
 
 " INDENTATION SETTINGS:
 set shiftwidth=4
