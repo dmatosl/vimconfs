@@ -29,6 +29,11 @@ set gfn=Monaco:h14
 " TEMPLATE SETTINGS:
 autocmd! BufNewFile * silent! 0r ~/.vim/skel/tmpl.%:e
 
+" Pydiction Support
+filetype plugin on
+let g:pydiction_location = '~/.vim/pydiction/complete-dict'
+let g:pydiction_menu_height = 15
+
 " GUI INTERFACE SETTINGS:
 if has('gui_running')
     set guioptions-=T  " no toolbar
