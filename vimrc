@@ -1,5 +1,5 @@
 " VIM CONFIG FILE
-" Author: dmatosl <http://github.com/dmatosl>
+" Author: dmatosl<http://github.com/dmatosl>
 " Description: My personal vim config file
 
 " GLOBAL CONFIG SETTINGS:
