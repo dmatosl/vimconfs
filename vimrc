@@ -35,9 +35,10 @@ let g:pydiction_location = '~/.vim/pydiction/complete-dict'
 let g:pydiction_menu_height = 15
 
 " GUI INTERFACE SETTINGS:
+set t_Co=256
 if has('gui_running')
     set guioptions-=T  " no toolbar
     colorscheme wombat
 else
-    colorscheme koehler
+    colorscheme twilight256
 endif
